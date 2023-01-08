@@ -1,9 +1,10 @@
+import Link from 'next/link'
 import React from 'react'
 
 function MenuLink(props: { chosen: boolean, label: string, logo: string }) {
     let { chosen, label, logo } = props
     return (
-        <h4 className='m-2 ml-2 p-2 text-sm'>{label} {logo}</h4>
+        <Link href="#" className='py-1 pl-6 text-sm hover:bg-gray-800 w-full'><i>{logo}</i> {label}</Link>
     )
 }
 
