@@ -5,11 +5,11 @@ import SidebarFooter from './SidebarFooter'
 
 function Sidebar() {
     return (
-        <div className="flex-initial bg-gray-900 w-56 text-white flex flex-col">
+        <aside className="flex-initial bg-gray-900 w-56 text-white flex flex-col sticky top-0">
             <SidebarUser />
             <SidebarContent />
             <SidebarFooter />
-        </div>
+        </aside>
     )
 }
 
