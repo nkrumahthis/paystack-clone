@@ -1,11 +1,14 @@
 import React from 'react'
 import MenuLink from './MenuLink'
+import MenuDivider from './MenuDivider'
 
 function SidebarContent() {
     return (
-        <ul>
-            <li><MenuLink chosen={false} label="Compliance" logo="⟥" /></li>
-        </ul>
+        <div className="flex flex-col grow my-2">
+            <MenuLink chosen={false} label="Compliance" logo="⟥" />
+            <MenuLink chosen={false} label="Home" logo="⌂" />
+        </div>
+
     )
 }
 

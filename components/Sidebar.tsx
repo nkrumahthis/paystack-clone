@@ -5,7 +5,7 @@ import SidebarFooter from './SidebarFooter'
 
 function Sidebar() {
     return (
-        <div className="flex-initial bg-gray-900 w-56 text-white">
+        <div className="flex-initial bg-gray-900 w-56 text-white flex flex-col">
             <SidebarUser />
             <SidebarContent />
             <SidebarFooter />
