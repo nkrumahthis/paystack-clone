@@ -1,8 +1,12 @@
 import React from 'react'
+import MenuLink from './MenuLink'
 
 function SidebarFooter() {
     return (
-        <div>SidebarFooter</div>
+        <div className="flex flex-col mb-16 my-2">
+            <MenuLink chosen={false} label="Audit Logs" logo="⌂" />
+            <MenuLink chosen={false} label="Settings" logo="⌂" />
+        </div>
     )
 }
 
